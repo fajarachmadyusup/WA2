@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">WALayout</string>
+    <string name="label_profil">Profile</string>
+    <string name="label_main">WhatsApp</string>
+    <string name="my_name">4140-Fajar Achmad Yusup</string>
+    <string name="message">This is not your username or pin. This name will be visible to your WhatsApp contacts</string>
+    <string name="phone_stat">Phone and status</string>
+    <string name="my_stat">Hey there I am using WhatsApp</string>
+    <string name="my_phone">+62 813-2136-0671</string>
+    <string name="text_button">Open Profile</string>
+</resources>
