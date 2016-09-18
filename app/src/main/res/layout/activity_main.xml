@@ -9,11 +9,50 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.spartan.xxx.walayout.MainActivity">
 
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fotoLogo"
+        android:minHeight="150dp"
+        android:minWidth="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp" />
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/text_button"
+        android:text="@string/text_button_profile"
         android:id="@+id/buttonProfile"
+        android:onClick="callIntentProfile"
+        android:layout_below="@+id/buttonLogo"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_button_notification"
+        android:id="@+id/buttonNotif"
+        android:onClick="callNotification"
+        android:layout_below="@+id/buttonProfile"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_button_logo"
+        android:id="@+id/buttonLogo"
+        android:onClick="callLogo"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        android:layout_alignTop="@+id/fotoProfil"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:visibility="invisible"/>
 </RelativeLayout>

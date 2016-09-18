@@ -29,7 +29,8 @@
     <color name="button_material_light">#ffd6d7d7</color>
     <color name="colorAccent">#009688</color>
     <color name="colorGrey">#e7e7e7</color>
-    <color name="colorPrimary">#009688</color>
+    <color name="colorPink">#FF4081</color>
+    <color name="colorPrimary">#055F53</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorWhite">#FFFFFF</color>
     <color name="design_fab_shadow_end_color">@android:color/transparent</color>
@@ -309,6 +310,8 @@
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
+    <string name="fitur_undo">Fitur Undo belum jadi</string>
+    <string name="foto_changed">Foto telah diganti</string>
     <string name="label_main">WhatsApp</string>
     <string name="label_profil">Profile</string>
     <string name="message">This is not your username or pin. This name will be visible to your WhatsApp contacts</string>
@@ -318,7 +321,11 @@
     <string name="phone_stat">Phone and status</string>
     <string name="search_menu_title">Search</string>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <string name="text_button">Open Profile</string>
+    <string name="text_button_logo">Show Logo</string>
+    <string name="text_button_notification">Show Notification</string>
+    <string name="text_button_profile">Open Profile</string>
+    <string name="text_dialog">Ambil foto profil dari mana ?</string>
+    <string name="title_dialog">Ganti Foto</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>

@@ -7,5 +7,11 @@
     <string name="phone_stat">Phone and status</string>
     <string name="my_stat">Hey there I am using WhatsApp</string>
     <string name="my_phone">+62 813-2136-0671</string>
-    <string name="text_button">Open Profile</string>
+    <string name="text_button_profile">Open Profile</string>
+    <string name="text_button_notification">Show Notification</string>
+    <string name="text_button_logo">Show Logo</string>
+    <string name="fitur_undo">Fitur Undo belum jadi</string>
+    <string name="title_dialog">Ganti Foto</string>
+    <string name="text_dialog">Ambil foto profil dari mana ?</string>
+    <string name="foto_changed">Foto telah diganti</string>
 </resources>
