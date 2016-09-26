@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    
+    //RRRRRRRRRRRRRRRRRRRRRRRRRRRRRR
     //TTEEEEEEEEEEEEEEESSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
     public void callNotification (View view){
         NotificationCompat.Builder mBuilder =
